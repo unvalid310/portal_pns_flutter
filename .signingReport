@@ -1,0 +1,217 @@
+Variant: productionDebug
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: stagingDebug
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: developmentDebug
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: productionRelease
+Config: release
+Store: /Volumes/Data/FLUTTER-KEY/newkeymetro.jks
+Alias: AplikasiMetro
+MD5: A1:16:D1:EB:84:C4:64:4E:58:E5:2D:C1:D4:E8:85:52
+SHA1: 33:4F:2C:A5:5D:96:AA:4F:78:C5:C6:AE:C7:E8:D6:9C:31:34:E9:D0
+SHA-256: B5:5A:2F:89:37:A7:19:B0:43:EA:4C:7A:3E:1C:58:A5:EC:09:61:45:AA:0C:61:6B:14:6B:2A:DD:26:23:F8:2C
+Valid until: Friday, January 13, 2045
+----------
+Variant: stagingRelease
+Config: release
+Store: /Volumes/Data/FLUTTER-KEY/newkeymetro.jks
+Alias: AplikasiMetro
+MD5: A1:16:D1:EB:84:C4:64:4E:58:E5:2D:C1:D4:E8:85:52
+SHA1: 33:4F:2C:A5:5D:96:AA:4F:78:C5:C6:AE:C7:E8:D6:9C:31:34:E9:D0
+SHA-256: B5:5A:2F:89:37:A7:19:B0:43:EA:4C:7A:3E:1C:58:A5:EC:09:61:45:AA:0C:61:6B:14:6B:2A:DD:26:23:F8:2C
+Valid until: Friday, January 13, 2045
+----------
+Variant: developmentRelease
+Config: release
+Store: /Volumes/Data/FLUTTER-KEY/newkeymetro.jks
+Alias: AplikasiMetro
+MD5: A1:16:D1:EB:84:C4:64:4E:58:E5:2D:C1:D4:E8:85:52
+SHA1: 33:4F:2C:A5:5D:96:AA:4F:78:C5:C6:AE:C7:E8:D6:9C:31:34:E9:D0
+SHA-256: B5:5A:2F:89:37:A7:19:B0:43:EA:4C:7A:3E:1C:58:A5:EC:09:61:45:AA:0C:61:6B:14:6B:2A:DD:26:23:F8:2C
+Valid until: Friday, January 13, 2045
+----------
+Variant: productionProfile
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: stagingProfile
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: developmentProfile
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: productionDebugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: stagingDebugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+Variant: developmentDebugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :connectivity_plus:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :firebase_core:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :firebase_messaging:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :flutter_local_notifications:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :flutter_plugin_android_lifecycle:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :geocoding:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :geolocator_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :google_maps_flutter_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :path_provider_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 2053
+----------
+
+> Task :shared_preferences_android:signingReport
+Variant: debugAndroidTest
+Config: debug
+Store: /Users/aptika/.android/debug.keystore
+Alias: AndroidDebugKey
+MD5: D4:77:7E:61:88:F9:10:55:7A:51:F0:8F:F3:D0:84:EB
+SHA1: FD:0C:AE:22:78:98:71:A7:88:97:66:D5:03:33:71:1F:90:8D:F5:F3
+SHA-256: 5F:86:6D:83:E5:FC:D0:68:E4:D8:85:26:F6:C5:79:A9:52:7E:C4:C4:92:7B:77:8D:8C:02:F1:CF:05:50:17:44
+Valid until: Saturday, December 13, 205

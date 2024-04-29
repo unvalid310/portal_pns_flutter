@@ -1,0 +1,138 @@
+buildscript {
+    repositories {
+        maven { url 'https://plugins.gradle.org/m2/' } // Gradle Plugin Portal
+    }
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+
+def multidex_version = "2.0.1"
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+android {
+    compileSdkVersion 33
+    ndkVersion '21.4.7075529'
+    
+    compileOptions {
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+        // Sets Java compatibility to Java 8
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds true //<- add this line
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "goid.metrokota.pns"
+        minSdkVersion 21
+        targetSdkVersion 33
+        multiDexEnabled true
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    signingConfigs {
+        if (System.getenv("ANDROID_KEYSTORE_PATH")) {
+            release {
+                storeFile file(System.getenv("ANDROID_KEYSTORE_PATH"))
+                keyAlias System.getenv("ANDROID_KEYSTORE_ALIAS")
+                keyPassword System.getenv("ANDROID_KEYSTORE_PRIVATE_KEY_PASSWORD")
+                storePassword System.getenv("ANDROID_KEYSTORE_PASSWORD")
+            }
+        } else {
+            release {
+                keyAlias keystoreProperties['keyAlias']
+                keyPassword keystoreProperties['keyPassword']
+                storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
+                storePassword keystoreProperties['storePassword']
+            }
+        }
+    }
+
+    flavorDimensions "default"
+    productFlavors { 
+        production {
+            dimension "default"
+            applicationIdSuffix ""
+        }
+        staging {
+            dimension "default"
+            applicationIdSuffix ".stg"
+        }        
+        development {
+            dimension "default"
+            applicationIdSuffix ".dev"
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            shrinkResources false
+            minifyEnabled true
+
+//            proguardFiles getDefaultProguardFile('proguard-rules.pro')
+        }
+        debug {
+            signingConfig signingConfigs.debug
+            shrinkResources false
+        }
+    }
+    namespace 'goid.metrokota.pns'
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "com.airbnb.android:lottie:3.5.0"
+    implementation "com.android.support.constraint:constraint-layout:2.0.4"
+    implementation "com.google.firebase:firebase-bom:26.7.0"
+    implementation "com.google.firebase:firebase-analytics"
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    implementation "com.android.support:multidex:1.0.3"
+    coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:1.1.5"
+}

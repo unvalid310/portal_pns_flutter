@@ -1,0 +1,113 @@
+[
+  {
+    "featureType": "poi.attraction",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.attraction",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.business",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.government",
+    "stylers": [
+      {
+        "color": "#b58047"
+      },
+      {
+        "visibility": "simplified"
+      },
+      {
+        "weight": 1
+      }
+    ]
+  },
+  {
+    "featureType": "poi.medical",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.place_of_worship",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.school",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.sports_complex",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "stylers": [
+      {
+        "visibility": "simplified"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway.controlled_access",
+    "stylers": [
+      {
+        "visibility": "simplified"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "stylers": [
+      {
+        "visibility": "on"
+      }
+    ]
+  }
+]
